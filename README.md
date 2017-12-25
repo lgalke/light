@@ -72,12 +72,12 @@ die zweite Spalte die gemessene Beleuchtungsstärke Y in Lux.
 Zu finden sind die Modellparameter a, b, C, r und d.
 
 
-## Example Outputs
+## Model outputs 
 
-### Math. model with parameters (a, b, C) estimated using Nesterov momentum
+Parameters `(a, b, C)` estimated using SGD with Nesterov momentum
 
-![out/math-3.png]
+![Parameters (a,b, C) estimated using SGD with Nesterov momentum][out/math-3.png]
 
-### Brute-force MLP optimized by LBFGS
+100 hidden units MLP optimized by LBFGS
 
-![out/mlp.png]
+![100 hidden units MLP optimized by LBFGS][out/mlp.png]
