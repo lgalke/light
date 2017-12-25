@@ -76,8 +76,8 @@ Zu finden sind die Modellparameter a, b, C, r und d.
 
 Parameters `(a, b, C)` estimated using SGD with Nesterov momentum
 
-![Parameters (a,b, C) estimated using SGD with Nesterov momentum][out/math-3.png]
+![Parameters (a,b, C) estimated using SGD with Nesterov momentum](out/math-3.png)
 
 100 hidden units MLP optimized by LBFGS
 
-![100 hidden units MLP optimized by LBFGS][out/mlp.png]
+![100 hidden units MLP optimized by LBFGS](out/mlp.png)
