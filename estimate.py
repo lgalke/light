@@ -59,4 +59,4 @@ with tf.Session() as sess:
     def model(inp):
         return sess.run(a) * (inp / sess.run(C)) ** -sess.run(b)
 
-    visualize(model, train_X, train_Y, out="out/math.png")
+    visualize(model, train_X, train_Y, out="out/math-3.png")

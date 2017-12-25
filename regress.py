@@ -34,8 +34,6 @@ for pred, true in zip(pred, y_test):
 r2 = mlp.score(x_test, y_test)
 print("R^2 score:", r2)
 
-import matplotlib.pyplot as plt
-
 def model(inp):
     return mlp.predict(inp)
 

@@ -15,8 +15,8 @@ def visualize(model,
     """
     plt.figure(1)
     plt.scatter(samples, targets, c='g')
-    full_x = np.arange(samples.min(), targets.min(), step)
-    plt.plot(full_x, model(full_x))
+    full_x = np.arange(samples.min(), samples.max(), step).reshape(-1, 1)
+    plt.plot(full_x, model(full_x), c='r')
     if not out:
         plt.show()
     else:

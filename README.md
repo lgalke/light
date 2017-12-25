@@ -1,3 +1,7 @@
+# Light
+
+## Problem Definition
+
 Im vorliegenden Fall bildet das Modell den Zusammenhang zwischen
 einer gemessenen Zeit X (in Sekunden) und der Beleuchtungsstärke 
 Y (in Lux) an einem Photowiderstand R (in Ohm) ab.
@@ -66,3 +70,14 @@ die mit X= t/1000000 in Sekunden umzurechnen sind,
 die zweite Spalte die gemessene Beleuchtungsstärke Y in Lux.
 
 Zu finden sind die Modellparameter a, b, C, r und d.
+
+
+## Example Outputs
+
+### Math. model with parameters (a, b, C) estimated using Nesterov momentum
+
+![out/math-3.png]
+
+### Brute-force MLP optimized by LBFGS
+
+![out/mlp.png]
